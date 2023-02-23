@@ -12,7 +12,7 @@ const FeatureCard = ({ icon, content, title, index }) => (
       <img src={icon} className='w-[50%] h-[50%] object-contain' alt="icon" />
     </div>
     <div className='flex-1 flex flex-col ml-3'>
-      <h3 className='text-poppins text-white font-normal font-bold mb-2'>{title}</h3>
+      <h3 className='text-poppins text-white font-bold mb-2'>{title}</h3>
       <p className='text-dimWhite font-poppins'>{content}</p>
     </div>
   </div>
