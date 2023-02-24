@@ -7,7 +7,7 @@ import Buttons from './Buttons'
 const FeatureCard = ({ icon, content, title, index }) => (
   //feature card is a class which added in index which gives hover effect
 
-  <div className={`max-w-[470px] flex flex-row p-6 feature-card rounded-[20px] ${index != features.length - 1 ? 'mb-6' : 'mb-0'} sm:flex-1`}>
+  <div className={`max-w-[470px] flex flex-row p-6 feature-card rounded-[20px] ${index != features.length - 1 ? 'mb-6' : 'mb-0'} sm:flex-1 lg:mr-[135px]`}>
     <div className={`w-[64px] h-[64px] flex justify-center items-center rounded-full bg-dimBlue`}>
       <img src={icon} className='w-[50%] h-[50%] object-contain' alt="icon" />
     </div>
