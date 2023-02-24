@@ -2,9 +2,12 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-      d
-    </div>
+    <section>
+      <div className='w-full flex py-6 justify-between items-center navbar h-[418px] bg-red-300'>
+
+      </div>
+
+    </section>
   )
 }
 

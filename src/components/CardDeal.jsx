@@ -16,7 +16,7 @@ function CardDeal() {
           <Buttons />
         </div>
       </div>
-      <div className={` md:ml-10 ml-0 md:mt-0 mt-10 relative max-w-[470px] flex justify-center lg:mr-[135px]`}>
+      <div className={` md:ml-10 ml-0 md:mt-0 mt-10 relative max-w-[470px] flex justify-center lg:mr-[100px]`}>
         <img src={card} className={``} alt="card" />
       </div>
 
