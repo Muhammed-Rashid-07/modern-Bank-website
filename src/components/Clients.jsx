@@ -5,7 +5,7 @@ import { clients } from '../constants'
 function Clients() {
   return (
     <section>
-      <div className='lg:flex justify-evenly max-w-[90%] items-center mt-[111px] '>
+      <div className='lg:flex justify-evenly max-w-[90%] items-center mt-[111px] mb-[100px] '>
         {clients.map((client)=>{
           return(
             <div key={client.id}>
